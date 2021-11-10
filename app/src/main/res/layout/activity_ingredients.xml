@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngredientsActivity">
+
+    <Button
+        android:id="@+id/om5"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="72dp"
+        android:text="Thon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/om2" />
+
+    <Button
+        android:id="@+id/om3"
+        android:layout_width="153dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Pommedeterre"
+        app:layout_constraintEnd_toStartOf="@+id/om5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/om" />
+
+    <Button
+        android:id="@+id/om2"
+        android:layout_width="148dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="Sardine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/om"
+        app:layout_constraintTop_toBottomOf="@+id/ou" />
+
+    <Button
+        android:id="@+id/om"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:text="omlete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/es" />
+
+    <Button
+        android:id="@+id/ou"
+        android:layout_width="148dp"
+        android:layout_height="56dp"
+        android:text="oeufPoché"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/es"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/es"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:text="Escalop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/am"
+        android:layout_width="154dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Amande"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/om3" />
+
+    <Button
+        android:id="@+id/roo1"
+        android:layout_width="146dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="Banane"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/om5" />
+
+    <Button
+        android:id="@+id/fl"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:text="Floconavoine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/am" />
+
+    <Button
+        android:id="@+id/caca"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="Cacahouéte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roo1" />
+
+    <Button
+        android:id="@+id/poi"
+        android:layout_width="163dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:text="PoisChiches"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fl" />
+
+    <Button
+        android:id="@+id/riz"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Riz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caca" />
+
+    <Button
+        android:id="@+id/da"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="Datte"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poi" />
+
+    <Button
+        android:id="@+id/ma"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="Mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riz" />
+
+    <Button
+        android:id="@+id/aa"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="88dp"
+        android:text="Retour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/da" />
+
+    <Button
+        android:id="@+id/aaa"
+        android:layout_width="154dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="88dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

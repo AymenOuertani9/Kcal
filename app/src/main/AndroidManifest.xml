@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".MaisActivity"></activity>
+        <activity android:name=".datteActivity" />
+        <activity android:name=".RizActivity" />
+        <activity android:name=".poisActivity" />
+        <activity android:name=".cacahoueteActivity" />
+        <activity android:name=".floconActivity" />
+        <activity android:name=".BananeActivity2" />
+        <activity android:name=".AmandeActivity" />
+        <activity android:name=".thonActivity" />
+        <activity android:name=".pommeActivity" />
+        <activity android:name=".sardineActivity" />
+        <activity android:name=".omleteActivity" />
+        <activity android:name=".oeufPocheActivity" />
+        <activity android:name=".ingActivity2" />
+        <activity android:name=".IngredientsActivity" />
+        <activity android:name=".caloriesBREAKActivity" />
+        <activity android:name=".caloriesActivity" />
+        <activity android:name=".secondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
