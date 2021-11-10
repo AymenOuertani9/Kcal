@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MaisActivity"></activity>
+        <activity android:name=".Snacks"></activity>
+        <activity android:name=".Diner" />
+        <activity android:name=".Dejeuner" />
+        <activity android:name=".petitdejActivity" />
+        <activity android:name=".DietActivity2" />
+        <activity android:name=".MaisActivity" />
         <activity android:name=".datteActivity" />
         <activity android:name=".RizActivity" />
         <activity android:name=".poisActivity" />

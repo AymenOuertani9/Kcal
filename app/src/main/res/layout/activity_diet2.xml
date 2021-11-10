@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietActivity2">
+
+    <Button
+        android:id="@+id/sn"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="Snacks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/di" />
+
+    <Button
+        android:id="@+id/pe"
+        android:layout_width="163dp"
+        android:layout_height="57dp"
+        android:text="Petit Déjeuner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/de"
+        android:layout_width="168dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:text="Déjeuner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pe" />
+
+    <Button
+        android:id="@+id/di"
+        android:layout_width="168dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:text="Diner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/de" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:text="Diet Prise de masse "
+        app:layout_constraintBottom_toTopOf="@+id/pe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/rrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,6 @@
         android:layout_height="43dp"
         android:text="ingrédients"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/h"
         tools:layout_editor_absoluteY="-2dp" />
 
     <ImageView
@@ -28,9 +27,18 @@
 
     <Button
         android:id="@+id/h"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="84dp"
+        android:layout_height="44dp"
         android:text="Home"
-        tools:layout_editor_absoluteX="47dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="-2dp" />
+
+    <Button
+        android:id="@+id/Diet"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:text="prisedemasse"
+        app:layout_constraintEnd_toStartOf="@+id/I"
+        app:layout_constraintStart_toEndOf="@+id/h"
+        tools:layout_editor_absoluteY="-1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
