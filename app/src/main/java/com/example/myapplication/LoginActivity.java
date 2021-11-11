@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
 
         login_button.setOnClickListener(view -> {
             if (CheckAllFields()) {
-                if (db.userDao().Usercheck(Username.getText().toString(), Password.getText().toString()) == true) {
+                if (db.userDao().Usercheck(Username.getText().toString(), Password.getText().toString())) {
                     login_editor.putString("login", Username.getText().toString());
                     login_editor.putString("password", Password.getText().toString());
                     login_editor.putBoolean("isLoggedin", true);

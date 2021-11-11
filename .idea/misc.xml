@@ -13,20 +13,28 @@
         <entry key="..\:/dev/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2703125" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_auth.xml" value="0.16893115942028986" />
-        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.13020833333333334" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.176" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_home2.xml" value="0.264" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_ing_form.xml" value="0.4" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.4" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.20199275362318841" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_settings.xml" value="0.264" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_signin.xml" value="0.264" />
-        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_welcome.xml" value="0.13020833333333334" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/activity_welcome.xml" value="0.4" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/food_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_adding.xml" value="0.153125" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_calories.xml" value="0.13020833333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_contact.xml" value="0.21614583333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_dashboard.xml" value="0.13020833333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.536" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_ing_form.xml" value="0.13020833333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_notifications.xml" value="0.13020833333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_premuim.xml" value="0.21614583333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_settings.xml" value="0.2" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/fragment_weight.xml" value="0.13020833333333334" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/layout/toolbar.xml" value="0.13020833333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/dev/MyApplication/app/src/main/res/menu/drawer_view.xml" value="0.13020833333333334" />
         <entry key="..\:/dev/MyApplication/app/src/main/res/menu/nav_menu.xml" value="0.1" />
       </map>
     </option>

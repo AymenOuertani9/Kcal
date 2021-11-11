@@ -25,7 +25,6 @@ import com.example.myapplication.enteties.User;
  */
 public class SettingsFragment extends Fragment {
 
-    private SettingsActivity settingsActivity;
     Button logout_button;
     EditText name2;
     EditText password2;

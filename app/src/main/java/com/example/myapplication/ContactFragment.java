@@ -97,17 +97,27 @@ public class ContactFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Uri instgram = Uri.parse("http://instagram.com/_u/sneakers_kings007");
-                Intent i= new Intent(Intent.ACTION_VIEW,instgram);
+                Intent intent= new Intent(Intent.ACTION_VIEW,instgram);
 
-                i.setPackage("com.instagram.android");
+                intent.setPackage("com.instagram.android");
 
                 try {
-                    startActivity(i);
+                    startActivity(intent);
                 } catch (ActivityNotFoundException e) {
 
                     startActivity(new Intent(Intent.ACTION_VIEW,
                             Uri.parse("http://instagram.com/sneakers_kings007")));
                 }
+            }
+        });
+
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri facebook = Uri.parse("https://www.facebook.com/newvisiontunis");
+                Intent intent = new Intent(Intent.ACTION_VIEW , facebook);
+                startActivity(intent);
+
             }
         });
 

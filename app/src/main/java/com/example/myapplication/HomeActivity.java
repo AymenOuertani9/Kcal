@@ -3,21 +3,29 @@ package com.example.myapplication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
+
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
 import android.view.MenuItem;
 
-import com.google.android.material.bottomnavigation.BottomNavigationItemView;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarView;
-import com.google.android.material.navigation.NavigationView;
+import com.example.myapplication.database.MyDatabase;
+import com.example.myapplication.enteties.Food;
 
-public class HomeActivity extends AppCompatActivity {
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+
+import java.util.List;
+
+public class HomeActivity extends AppCompatActivity{
 
     BottomNavigationView navigationView;
     ActionBar actionBar;
+    MyDatabase db;
+    RecyclerView recyclerView;
+    List<Food> food;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +38,16 @@ public class HomeActivity extends AppCompatActivity {
         actionBar.setTitle("Home");
 
         HomeFragment fragment = new HomeFragment();
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.content, fragment, "");
+        fragmentTransaction.commit();
+
+
+    }
+
+    public void ingForm (){
+        //actionBar.setTitle("Add ing");
+        AddingFragment fragment = new AddingFragment();
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.content, fragment, "");
         fragmentTransaction.commit();
